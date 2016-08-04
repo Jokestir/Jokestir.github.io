@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+
+    {% include header.html %}
+
+    <div class="page-content">
+      <div class="wrapper">
+        {{ content }}
+      </div>
+    </div>
+
+	<ol class="notes-list" >
+	{% for my_page in site.pages %}
+        {% unless my_page.path contains "index.html" %}
+		{% if my_page.title %}
+		
+		
+		        <li><span>
+					<p>
+						<a style="font-size: 18px" class="page-link" href="{{ my_page.url }}">{{ my_page.title }}</a>
+					<p>
+				</span>
+				</li>
+		
+		
+		{% endif %}
+		{% endunless %}
+    {% endfor %}
+  </ol>
+
+    
+
+    
+
+  </body>
+
+</html>
+

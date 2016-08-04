@@ -17,11 +17,11 @@ nav ul li, footer ul li {
 }
 a {
     text-decoration: inherit;
-    color: #D79100;
+    color: #0000C8;
 	
 }
 a:hover {
-    text-decoration: underline	;
+    text-decoration: none	;
 }
 h1 {
     font-size: 45px;
@@ -51,4 +51,13 @@ footer {
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
 }
+li {
+    padding-left:1em;
+    color:#770300; /* red bullet */
+}
+li span {
+    display:block;
+    margin-left:-0.5em;
+}
+
 

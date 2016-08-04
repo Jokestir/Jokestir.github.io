@@ -1,5 +1,5 @@
 ---
-layout: landing_page
+layout: websitelanding
 exclude: true
 title: Notes
 ---
@@ -8,23 +8,24 @@ title: Notes
 <div class="home">
 
 
-  
+  <ol class="notes-list" >
 	{% for my_page in site.pages %}
         {% if my_page.path contains "index.html" %}
 		{% if my_page.title %}
 		{% unless my_page.exclude %}
-		<ol class="notes-list" >
-		        <li>
-					<h2>
-						<a style="font-size: 22px" class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
-					</h2>
+		
+		        <li><span>
+					<p>
+						<a style="font-size: 22px" class="page-link" href="{{ my_page.url }}">{{ my_page.title }}</a>
+					<p>
+				</span>
 				</li>
-		</ol>
+		
 		{% endunless %}
 		{% endif %}
 		{% endif %}
     {% endfor %}
-  
+  </ol>
 
   
 
