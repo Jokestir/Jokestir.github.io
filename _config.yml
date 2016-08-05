@@ -2,3 +2,5 @@
 # Build settings
 markdown: kramdown
 title: Notes
+urlforappend : jokestir.github.io/
+urlappendfortest: localhost:4000/

@@ -1,6 +1,6 @@
 ---
 title: Exceptions
-layout: toc
+layout: page
 ---
 
 
