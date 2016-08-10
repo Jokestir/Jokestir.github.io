@@ -4,7 +4,7 @@ body {
 	background: url(/assets/background.jpg) repeat;
 }
 nav ul, footer ul {
-    
+
     padding: 0px;
     list-style: none;
     font-weight: bold;
@@ -18,32 +18,32 @@ nav ul li, footer ul li {
 a {
     text-decoration: inherit;
     color: #0000C8;
-	
+
 }
 a:hover {
     text-decoration: none	;
 }
 h1 {
-    font-size: 45px;
+    font-size: 35px;
     font-family: 'Roboto Mono', monospace;
 	color: #770300;
 }
 
 h2 {
-    font-size: 30px;
+    font-size: 25px;
     font-family: 'Roboto Mono', monospace;
 	color: #770300;
 }
 
 h3 {
-    font-size: 22px;
+    font-size: 16px;
     font-family: 'Roboto Mono', monospace;
 	color: #770300;
 	border-bottom: 1px solid #FFA700;
 }
 p {
 	font-family: 'Lora', serif;
-    font-size: 1.125em;
+    font-size: 1em;
     line-height: 1.4em;
     color: #333;
 }

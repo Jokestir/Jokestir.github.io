@@ -1,6 +1,6 @@
 # Jokestir.github.io
 
-###Guide to configure github + jekyll to host personal website
+### Guide to configure github + jekyll to host personal website
 
 0. Create a repository named username.github.io
 1. Create a index.html file inside the repository inside. This is your homepage.
