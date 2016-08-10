@@ -1,0 +1,42 @@
+<!-- Capture and store a URL -->
+{% capture currenturl %}{{ page.url | split:'/' }}{% endcapture %}
+<!-- {% capture pagepath %}{{ page.path }}{% endcapture %} -->
+{% assign projects = site.pages | sort: "sort" %}
+
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+
+    {% include header.html %}
+    <h1>{{page.title}}</h1>
+
+    <div class="page-content">
+      <div class="wrapper">
+        {{ content }}
+      </div>
+    </div>
+
+	<ol class="notes-list" >
+	{% for my_page in projects %}
+        {% unless my_page.path contains "index.html" %}
+		{% if my_page.title %}
+        {% if my_page.path contains currenturl %}
+		        <li><span>
+					<p>
+						<a style="font-size: 18px" class="page-link" href="{{ my_page.url }}">{{ my_page.title }}</a>
+					<p>
+				</span>
+				</li>
+        {% endif %}
+		{% endif %}
+		{% endunless %}
+    {% endfor %}
+  </ol>
+
+ </body>
+
+</html>
+
