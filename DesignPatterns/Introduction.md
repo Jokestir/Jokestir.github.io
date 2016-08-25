@@ -16,5 +16,14 @@ Whenever a problem arises, there are two options.
 
 Questions to be asked when studying a design pattern
 
-	What is the common recurring problem?
+1. What is the common recurring problem?
 
+2. What are the best strategies to solve them? (aka design)
+
+3. Sample code
+
+4. Real time use
+
+```python
+print('hello world')
+```
