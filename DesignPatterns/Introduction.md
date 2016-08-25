@@ -24,6 +24,8 @@ Questions to be asked when studying a design pattern
 
 4. Real time use
 
-```python
-print('hello world')
-```
+{% highlight ruby linenos %}
+def foo
+  puts 'foo'
+end
+{% endhighlight %}
