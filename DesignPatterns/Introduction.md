@@ -1,5 +1,5 @@
 ---
-title: Introduction
+title: Introduction to Design patterns
 layout: page
 sort: 1
 ---
