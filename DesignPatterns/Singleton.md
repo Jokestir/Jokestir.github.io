@@ -23,31 +23,7 @@ There are two ways to design singleton
 
 Step 1 : Mark constructor private.
 
-```java
-
-	public class Earth{
-
-			private Earth(){}      // Constructor private. Step1
-
-	}
-
-```
-
-
 Step 2  : Declare Private static final reference var Earth
-
-
-```java
-
-	public class Earth{
-
-            private static final Earth instance = new Earth(); // Step 2
-			private Earth(){}      // Constructor private. Step1
-
-	}
-
-```
-
 
 Step 3  :  Declare static factory method which returns singleton
 
@@ -55,10 +31,14 @@ Step 3  :  Declare static factory method which returns singleton
 
 	public class Earth{
 
-            private static final Earth instance = new Earth(); // Step 2
-			private Earth(){}      // Constructor private. Step1
+			// Step 2. static final private ref var.
+            private static final Earth instance = new Earth();
 
-			public static Earth getInstance(){   // Step 3 : return singleton
+            //  Step1. private constructor
+			private Earth(){}
+
+			// Step 3 : static factory method
+			public static Earth getInstance(){
 				return instance;
 			}
 
@@ -67,4 +47,4 @@ Step 3  :  Declare static factory method which returns singleton
 ```
 
 
-This method is susceptible to reflection attacks by using `Earth.class.getDeclaredConstructors.setAccessible(true).newInstance()`.
+This method is susceptible to reflection attacks by using reflection.
