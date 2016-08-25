@@ -99,3 +99,5 @@ Example 2: Manager type classes like WiFiManager. Or Controller.
 		}
 	}
 
+```
+
