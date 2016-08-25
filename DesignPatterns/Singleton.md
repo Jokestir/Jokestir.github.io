@@ -47,4 +47,4 @@ Step 3  :  Declare static factory method which returns singleton
 ```
 
 
-This method is susceptible to reflection attacks by using reflection.
+This method is susceptible to reflection attacks.
