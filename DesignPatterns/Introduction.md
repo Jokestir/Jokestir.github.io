@@ -24,7 +24,7 @@ Questions to be asked when studying a design pattern
 
 4. Real time use
 
-{% highlight ruby linenos %}
+{% highlight ruby %}
 def foo
   puts 'foo'
 end
