@@ -77,9 +77,10 @@ li span {
 .highlight pre, pre, .highlight .hll {
     background-color: #49483E;
     border: 1px solid #ccc;
-    padding: 6px 10px 6px;
+    padding: 6px 10px;
     border-radius: 3px;
     color: #FFFFFF;
+    padding-bottom: 8px;
 }
 /* Highlights taken from https://gist.github.com/asaaki/1007420  for Monokai theme */
 .c                 { color: #75715e }                            /* Comment                     */
