@@ -102,4 +102,4 @@ Example 2: Manager type classes like WiFiManager. Or Controller.
 ```
 
 
-[TL;DR](({{ site.url }}/assets/singleton_tl_dr.png){:class="img-responsive"})
+[TL;DR](({{ site.url }}/assets/singleton_tl_dr.png)
