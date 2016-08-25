@@ -24,8 +24,3 @@ Questions to be asked when studying a design pattern
 
 4. Real time use
 
-{% highlight python %}
-	def foo:
-  	  print("Foo")
-
-{% endhighlight %}
