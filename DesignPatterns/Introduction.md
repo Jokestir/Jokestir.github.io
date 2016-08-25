@@ -16,5 +16,5 @@ Whenever a problem arises, there are two options.
 
 Questions to be asked when studying a design pattern
 
-What is the common recurring problem?
+	What is the common recurring problem?
 
