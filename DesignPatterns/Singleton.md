@@ -4,7 +4,7 @@ layout: page
 sort: 2
 ---
 
-### Problem : Design a class so that only **one** instance of it is available all the time
+### Problem : Design a class so that only **one** instance of it exists ever.
 
 The class whose only one instance is available all the time is called a singleton class.
 
