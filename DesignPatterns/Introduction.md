@@ -14,3 +14,6 @@ Whenever a problem arises, there are two options.
 
 [Type of Problem]({{ site.url }}/assets/problem_design_patterns.png)
 
+![Type of Problem]({{ site.url }}/assets/problem_design_patterns.png){:class="img-responsive"}
+
+
