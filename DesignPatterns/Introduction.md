@@ -25,4 +25,4 @@ Questions to be asked when studying a design pattern
 4. Real time use
 
 
-[TL;DR]({{ site.url }}/assets/tl_dr_design_patterns.png)
+[TL;DR](/assets/tl_dr_design_patterns.png)
