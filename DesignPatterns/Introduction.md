@@ -11,3 +11,6 @@ Design patterns are `best practise strategies` to solve a `recurring problem`.
 
 Whenever a problem arises, there are two options.
 
+
+[Type of Problem]({{ site.url }}/assets/problem_design_patterns.png)
+
