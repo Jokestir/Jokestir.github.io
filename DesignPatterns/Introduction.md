@@ -14,4 +14,14 @@ Whenever a problem arises, there are two options.
 
 ![Type of Problem]({{ site.url }}/assets/problem_design_patterns.png){:class="img-responsive"}
 
+Questions to be asked when studying a design pattern:
+
+	1. What is the common recurring problem?
+
+	2. What are the best strategies to solve it? (aka design)
+
+	3. Source code for these strategies.
+
+	4. Real time use.
+
 
