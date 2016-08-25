@@ -4,4 +4,4 @@ markdown: kramdown
 title: Notes
 urlforappend : jokestir.github.io/
 urlappendfortest: localhost:4000/
-highlighter: pygments
+#highlighter: pygments
