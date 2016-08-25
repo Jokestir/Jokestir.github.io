@@ -25,7 +25,7 @@ Questions to be asked when studying a design pattern
 4. Real time use
 
 {% highlight ruby %}
-def foo
-  puts 'foo'
-end
+	def foo
+  	  puts 'foo'
+	end
 {% endhighlight %}
