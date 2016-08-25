@@ -13,13 +13,7 @@ Example: Earth, Mars etc.
 
 ### Design
 
-There are two ways to design singleton
-
-1. Make constructor private. Expose static factory method which returns singleton
-
-2. Single field enum.
-
-#### First Design
+#### Design 1 - Make constructor private and have a static factory method.
 
 Step 1 : Mark constructor private.
 
@@ -32,15 +26,15 @@ Step 3  :  Declare static factory method which returns singleton
 	public class Earth{
 
 			// Step 2. static final private ref var.
-			
+
 			private static final Earth instance = new Earth();
 
 			//  Step1. private constructor
-			
+
 			private Earth(){}
 
 			// Step 3 : static factory method
-			
+
 			public static Earth getInstance(){
 				return instance;
 			}
@@ -50,4 +44,58 @@ Step 3  :  Declare static factory method which returns singleton
 ```
 
 
-This method is susceptible to reflection attacks.
+
+**This method is susceptible to reflection attacks**.
+
+
+#### Design  2 - Have a single element enum
+
+Code
+
+
+```java
+
+	public enum Earth{
+
+		INSTANCE;
+
+		public void goRoundTheSun(){
+
+		}
+
+	}
+
+```
+
+
+This method is reflection safe.
+
+Though less used, this method is the best.
+
+
+### Real Time Use
+
+Example 1: Logger class to log errors and events. There should only be one per system. Hence singleton.
+
+Example 2: Manager type classes like WiFiManager. Or Controller.
+
+
+#### Tester Class Code
+
+```java
+
+	public class SingletonTest{
+
+		public static void main(String[] args){
+
+           Earth e1 = Earth.getInstance();
+
+		   Earth e2 = Earth.getInstance();
+
+		   System.out.println(e1==e2);
+
+		   //Above statement should always return true for singleton.
+
+		}
+	}
+
