@@ -16,12 +16,12 @@ Whenever a problem arises, there are two options.
 
 Questions to be asked when studying a design pattern:
 
-	1. What is the common recurring problem?
+	What is the common recurring problem?
 
-	2. What are the best strategies to solve it? (aka design)
+	What are the best strategies to solve it? (aka design)
 
-	3. Source code for these strategies.
+	Source code for these strategies.
 
-	4. Real time use.
+	Real time use.
 
 
