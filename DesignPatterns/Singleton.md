@@ -21,27 +21,7 @@ Step 2  : Declare Private static final reference var Earth
 
 Step 3  :  Declare static factory method which returns singleton
 
-```java
-
-	public class Earth{
-
-			// Step 2. static final private ref var.
-
-			private static final Earth instance = new Earth();
-
-			//  Step1. private constructor
-
-			private Earth(){}
-
-			// Step 3 : static factory method
-
-			public static Earth getInstance(){
-				return instance;
-			}
-
-	}
-
-```
+{% gist Jokestir/138cd6121c842ae18e9a620bac68ebc8 %}
 
 
 
