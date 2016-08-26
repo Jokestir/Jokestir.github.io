@@ -6,7 +6,8 @@ sort: 1
 
 [TL;DR](/assets/tl_dr_design_patterns.png)
 
-> Design patterns are best practise strategies to solve commonly recurring problems.
+> Design patterns are best practise strategies to solve commonly recurring problems.<br><br>
+> A design pattern will have a problem statement, strategies, source code and real time usage
 
 ### What is a design pattern?
 
