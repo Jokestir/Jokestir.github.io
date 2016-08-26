@@ -15,7 +15,7 @@ sort: 2
 
 >  2. Single element enum
 
-### 1. Problem : Design a class so that only **one** instance of it exists ever.
+### 1. Problem : Design a class so that only **one** instance of it exists.
 
 The class whose only one instance is available all the time is called a singleton class.
 
