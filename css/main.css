@@ -24,7 +24,7 @@ a:hover {
     text-decoration: none	;
 }
 h1 {
-    font-size: 35px;
+    font-size: 32px;
     font-family: 'Roboto Mono', monospace;
 	color: #770300;
     margin-bottom: 20px;
@@ -40,7 +40,7 @@ h2 {
 }
 
 h3 {
-    font-size: 18px;
+    font-size: 24px;
     font-family: 'Roboto Mono', monospace;
 	color: #770300;
 	border-bottom: 1px solid #FFA700;
@@ -55,8 +55,7 @@ h4 {
 }
 p {
 	font-family: 'Merriweather', serif;
-    font-size: 18px;
-    line-height: 1.4em;
+    font-size: 16px;
     color: #0000C8;
     padding-bottom: 5px;
 }
