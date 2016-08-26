@@ -11,16 +11,8 @@ nav ul, footer ul {
 }
 nav ul li, footer ul li {
 	font-family: 'Roboto Mono', monospace;
-    /*display: inline;
-    margin-right: 20px;
-	color: #D79100;*/
     margin-bottom: 2em;
-    position:relative;
-    margin:0 auto;
-    clear:left;
-    height:auto;
-    z-index: 0;
-    text-align:center;/* Add This*/
+
 }
 a {
     text-decoration: inherit;
