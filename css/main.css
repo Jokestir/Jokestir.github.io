@@ -155,10 +155,9 @@ li span {
 blockquote {
   background: #f9f9f9;
   border-left: 10px solid #ccc;
-  margin: 1.5em 10px;
+  margin: 1.5em 10px 2em;
   padding: 0.5em 10px;
   quotes: "\201C""\201D""\2018""\2019";
-  margin-bottom: 4em;
 }
 
 blockquote p {
