@@ -2,6 +2,7 @@ body {
     margin: 60px auto;
     width: 70%;
 	background: url(/assets/background.jpg) repeat;
+    margin-top: 0px;
 }
 nav ul, footer ul {
 
