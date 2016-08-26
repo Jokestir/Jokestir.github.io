@@ -10,9 +10,9 @@ sort: 2
 >  Only one instance of a singleton class exists.  
 >  
 >  There are two ways to achieve singularity.  
->  
+>\\
 >  1. Private constructor and static factory method.  
->  
+>\\
 >  2. Single element enum.  
 
 ### 1. Problem : Design a class so that only **one** instance of it exists.
