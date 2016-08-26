@@ -27,7 +27,7 @@ h1 {
     font-size: 32px;
     font-family: 'Roboto Mono', monospace;
 	color: #770300;
-    margin-bottom: 1em;
+    margin-bottom: 2em;
 
 
 }
@@ -36,7 +36,7 @@ h2 {
     font-size: 25px;
     font-family: 'Roboto Mono', monospace;
 	color: #770300;
-    margin-bottom: 1em;
+    margin-bottom: 2em;
 }
 
 h3 {
@@ -44,14 +44,14 @@ h3 {
     font-family: 'Roboto Mono', monospace;
 	color: #770300;
 	border-bottom: 1px solid #FFA700;
-    margin-bottom: 1em;
+    margin-bottom: 2em;
 }
 
 h4 {
     font-size: 16px;
     font-family: 'Roboto Mono', monospace;
     color: #770300;
-    margin-bottom: 1em;
+    margin-bottom: 2em;
 }
 p {
 	font-family: 'Merriweather', serif;
