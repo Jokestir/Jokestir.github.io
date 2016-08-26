@@ -9,9 +9,10 @@ sort: 2
 
 >  Only one instance of a singleton class exists.<br><br>
 >  There are two ways to achieve singularity.
->
->  1. Private constructor and static factory method.
->  2. Single element enum.  
+>  
+>  1. Single element enum.
+>  2. Private constructor and static factory method.
+    
 
 ### 1. Problem : Design a class so that only **one** instance of it exists.
 
@@ -22,7 +23,24 @@ Example: Earth, Mars etc.
 
 ### 2. Design
 
-#### Design 1 - Make constructor private and have a static factory method.
+There are two designs to achieve singularity.
+
+
+
+
+
+#### Design  1 - Have a single element enum
+
+This method is reflection safe.
+
+Though less used, this method is the best.
+
+{% gist Jokestir/f6bb3772db1c78fd875feb6e664dd198 %}
+
+
+#### Design 2
+
+This method is susceptible to reflection attacks.
 
 Step 1 : Mark constructor private.
 
@@ -32,18 +50,6 @@ Step 3  :  Declare static factory method which returns singleton
 
 {% gist Jokestir/138cd6121c842ae18e9a620bac68ebc8 %}
 
-
-
-**This method is susceptible to reflection attacks**.
-
-
-#### Design  2 - Have a single element enum
-
-This method is reflection safe.
-
-Though less used, this method is the best.
-
-{% gist Jokestir/f6bb3772db1c78fd875feb6e664dd198 %}
 
 
 ### 3. Real Time Use
