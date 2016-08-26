@@ -33,19 +33,7 @@ Step 3  :  Declare static factory method which returns singleton
 Code
 
 
-```java
-
-	public enum Earth{
-
-		INSTANCE;
-
-		public void goRoundTheSun(){
-
-		}
-
-	}
-
-```
+{% gist Jokestir/f6bb3772db1c78fd875feb6e664dd198 %}
 
 
 This method is reflection safe.
@@ -62,24 +50,7 @@ Example 2: Manager type classes like WiFiManager. Or Controller.
 
 #### Tester Class Code
 
-```java
-
-	public class SingletonTest{
-
-		public static void main(String[] args){
-
-           Earth e1 = Earth.getInstance();
-
-		   Earth e2 = Earth.getInstance();
-
-		   System.out.println(e1==e2);
-
-		   //Above statement should always return true for singleton.
-
-		}
-	}
-
-```
+{% gist Jokestir/a23cedb0901df05933d41b945c7ddc1f %}
 
 
 [TL;DR]({{ site.url }}/assets/singleton_tl_dr.png)
