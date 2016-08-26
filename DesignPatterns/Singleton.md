@@ -7,7 +7,7 @@ sort: 2
 
 [TL;DR]({{ site.url }}/assets/singleton_tl_dr.png)
 
->  Only one instance of a singleton class exists.<br>
+>  Only one instance of a singleton class exists.<br><br>
 >  There are two ways to achieve singularity.
 >
 >  1. Private constructor and static factory method.
