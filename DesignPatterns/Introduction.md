@@ -29,4 +29,26 @@ Questions to be asked when studying a design pattern
 
 4. Real time use
 
+### Types of design patterns
+
+There are 3 types of design patterns (CSB)
+
+#### 1. Creational design patterns
+
+
+Creational design patterns focus on controlling the object creation process
+
+e.g: Constructor, Factory, Prototype, Singleton, Builder
+
+#### 2. Structural Design Patterns
+
+Structural design patterns focus on realizing relationships between different objects.
+
+e.g: Decorator, facade, Flyweight, Adapter, Proxy
+
+#### 3. Behavioral design Patterns
+
+Behavioral design patterns focus on improving or streamlining communication between objects
+
+e.g: Iterator, Mediator, Observer and mediator.
 
