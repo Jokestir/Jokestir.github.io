@@ -14,7 +14,7 @@ sort: 2
 >  2. Private constructor and static factory method.
     
 
-### 1. Problem : Design a class so that only **one** instance of it exists.
+### 1. Problem: Design a class so that only **one** instance of it exists.
 
 The class whose only one instance is available all the time is called a singleton class.
 
@@ -59,6 +59,6 @@ Step 3  :  Declare static factory method which returns singleton
 > Another Example : Manager type classes like WiFiManager. Or Controller.
 
 
-#### 4. Tester Class Code
+### 4. Tester Class Code
 
 {% gist Jokestir/a23cedb0901df05933d41b945c7ddc1f %}
