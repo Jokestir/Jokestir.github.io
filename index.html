@@ -8,23 +8,42 @@ title: Notes
 <div class="home">
 
 
-  <ol class="notes-list" >
-	{% for my_page in site.pages %}
-        {% if my_page.path contains "index.html" %}
-		{% if my_page.title %}
-		{% unless my_page.exclude %}
-		
+  <ol class="notes-list" >	
 		        <li><span>
 					<p>
-						<a style="font-size: 22px" class="page-link" href="{{ my_page.url }}">{{ my_page.title }}</a>
+						<a style="font-size: 22px" class="page-link" href="https://jokestir.github.io/java_notes/">Java</a>
 					<p>
 				</span>
 				</li>
 		
-		{% endunless %}
-		{% endif %}
-		{% endif %}
-    {% endfor %}
+		<li><span>
+					<p>
+						<a style="font-size: 22px" class="page-link" href="https://jokestir.github.io/design_patterns/">Design Patterns</a>
+					<p>
+				</span>
+				</li>
+				
+				<li><span>
+					<p>
+						<a style="font-size: 22px" class="page-link" href="https://jokestir.github.io/android_notes">Android</a>
+					<p>
+				</span>
+				</li>
+				
+				<li><span>
+					<p>
+						<a style="font-size: 22px" class="page-link" href="https://jokestir.github.io/algo_notes/">Algorithms</a>
+					<p>
+				</span>
+				</li>
+				
+				<li><span>
+					<p>
+						<a style="font-size: 22px" class="page-link" href="https://jokestir.github.io/python_notes">Python</a>
+					<p>
+				</span>
+				</li>
+		
   </ol>
 
   
