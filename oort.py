@@ -5,6 +5,8 @@ import pip
 import stat
 import PyPDF2
 import sys
+import distutils
+from distutils import dir_util
 
 
 
@@ -19,17 +21,17 @@ script_path = os.getcwd()
 
 # md files path
 
-notes_folder = 'source'
+notes_folder = '__source'
 
 # destination path
 
-destination_path_folder = 'docs'
+destination_path_folder = script_path
 
 
 notes_absolute_path = os.path.join(script_path,notes_folder)
 
 
-destination_absolute_path = os.path.join(script_path,destination_path_folder)
+destination_absolute_path = destination_path_folder
 
 
 # notes topic list. populate using getFolderList
@@ -59,7 +61,7 @@ def replaceMarkdownBypdf(file):
 
 
 def getFolderList(SourceFolder):
-    folderList = [ f for f in os.listdir(SourceFolder) if os.path.isdir(os.path.join(SourceFolder,f))]
+    folderList = [ f for f in os.listdir(SourceFolder) if (os.path.isdir(os.path.join(SourceFolder,f)) and not f.startswith("__"))]
     return folderList
 
 def createIndexFileForFolders(SourceFolder,DestinationFolder):
@@ -75,18 +77,14 @@ def createIndexFileForFolders(SourceFolder,DestinationFolder):
 
 def createOutputFolder(SourceFolder,DestinationFolder):
 
-    if(os.path.exists(DestinationFolder)):
-        shutil.rmtree(DestinationFolder,onerror=remove_readonly)
-
-    shutil.copytree(SourceFolder,DestinationFolder)
-    shutil.copytree(os.path.join(script_path,'assets'),os.path.join(DestinationFolder,'assets'))
+    distutils.dir_util.copy_tree(SourceFolder,DestinationFolder)
 
 def createMainIndexForFolders(SourceFolder,DestinationFolder):
 
     f = open(os.path.join(DestinationFolder,"index.md"),"w")
 
     for folder in folder_list:
-        if folder != "assets":
+        if (folder != "__assets" and folder != "__source"):
             f.write("* " + "###" + "[" + sanitizeFoldername(folder) + "]" + "(" + "./" + folder + "/index.html" + ")" + "\n")
 
 
@@ -97,22 +95,37 @@ def createMainIndexForFolders(SourceFolder,DestinationFolder):
 def createHtmlFiles(SourceFolder,DestinationFolder):
 
     for folder in folder_list:
-        if(folder != "assets"):
+        if(folder != "__assets"):
             files_list  = [f for f in os.listdir(os.path.join(SourceFolder,folder))  if os.path.isfile(os.path.join(SourceFolder,folder,f))]
 
             for files in files_list:
-                completed = subprocess.run(['pandoc','--css=../assets/benjamin.css','--to=html5',os.path.join(DestinationFolder,folder,files),'-o',os.path.join(DestinationFolder,folder,replaceMarkdownByhtml(files))])
+                completed = subprocess.run(['pandoc','--css=../__assets/benjamin.css','--to=html5',os.path.join(DestinationFolder,folder,files),'-o',os.path.join(DestinationFolder,folder,replaceMarkdownByhtml(files))])
 
     # convert outer index.md
-    completed = subprocess.run(['pandoc','--css=./assets/benjamin.css','--to=html5',os.path.join(DestinationFolder,'index.md'),'-o',os.path.join(DestinationFolder, replaceMarkdownByhtml("index.md"))])
+    completed = subprocess.run(['pandoc','--css=./__assets/benjamin.css','--to=html5',os.path.join(DestinationFolder,'index.md'),'-o',os.path.join(DestinationFolder, replaceMarkdownByhtml("index.md"))])
 
 
 
 def deleteMarkdownFromDestination(DestinationFolder):
-    for root, directories, files in os.walk(destination_absolute_path):
-        for file in files:
-            if os.path.splitext(file)[1] == ".md":
-                os.remove(os.path.join(root,file))
+
+    os.remove(os.path.join(DestinationFolder,"index.md"))
+    folders = [folder for folder in os.listdir(DestinationFolder) if (not str(folder).startswith("__"))]
+
+    for folder in folders:
+        for root,directories,files in os.walk(folder):
+            for file in files:
+                if(os.path.splitext(file)[1] == ".md"):
+                    os.remove(os.path.join(root,file))
+
+
+
+
+    # for root,directories,files in os.walk(os.getcwd()):
+    #     for directory in directories:
+    #         if (not str(directory).startswith("__")):
+    #             filess = [file for file in os.listdir(directory) if(os.path.splitext(file)[1] == ".md")]
+    #             for file in filess:
+    #                 os.remove(os.path.join(root,directory,file))
 
 
 def replaceMdByPdf(file):
@@ -179,7 +192,10 @@ def batchPdfConversion(SourceFolder,DestinationFolder):
     # ***create pdfs
     files = [file for file in os.listdir(SourceFolder) if (os.path.splitext(file)[1] == ".md" and os.path.splitext(file)[0] != "index")]
 
-    folders = [folder for folder in os.listdir(SourceFolder) if (os.path.isdir(os.path.join(SourceFolder,folder)) and folder != "assets")]
+
+
+    folders = [folder for folder in os.listdir(SourceFolder) if (os.path.isdir(os.path.join(SourceFolder,folder)) and not folder.startswith("__") and not folder.startswith("."))]
+
 
     if os.path.exists(DestinationFolder):
         shutil.rmtree(DestinationFolder)
@@ -187,10 +203,10 @@ def batchPdfConversion(SourceFolder,DestinationFolder):
     os.makedirs(DestinationFolder)
 
     #outer
-    if not files:
+    if files:
         for file in files:
             print("starting conversion: " + file + " to pdf...")
-            command = ['pandoc',"--variable","fontsize=14pt","--variable","documentclass=extarticle",os.path.join(SourceFolder,file),'--latex-engine=xelatex','--template=./assets/me.latex','-o',os.path.join(DestinationFolder,replaceMdByPdf(file))]
+            command = ['pandoc',"--variable","fontsize=14pt","--variable","documentclass=extarticle",os.path.join(SourceFolder,file),'--latex-engine=xelatex','--template=./__assets/me.latex','-o',os.path.join(DestinationFolder,replaceMdByPdf(file))]
             subprocess.run(command)
             print("conversion completed: " + file + " to pdf...")
 
@@ -198,9 +214,10 @@ def batchPdfConversion(SourceFolder,DestinationFolder):
     for folder in folders:
         os.makedirs(os.path.join(DestinationFolder,folder))
         filess = [file for file in os.listdir(os.path.join(SourceFolder,folder)) if (os.path.splitext(file)[1] == ".md" and os.path.splitext(file)[0] != "index")]
+
         for file in filess:
             print("starting conversion: " + file + " to pdf...")
-            command = ['pandoc',"--variable","fontsize=14pt","--variable","documentclass=extarticle",os.path.join(SourceFolder,folder,file),'--latex-engine=xelatex','--template=./assets/me.latex','--highlight-style=pygments','-o',os.path.join(DestinationFolder,folder,replaceMdByPdf(file))]
+            command = ['pandoc',"--variable","fontsize=14pt","--variable","documentclass=extarticle",os.path.join(SourceFolder,folder,file),'--latex-engine=xelatex','--template=./__assets/me.latex','--highlight-style=pygments','-o',os.path.join(DestinationFolder,folder,replaceMdByPdf(file))]
             subprocess.run(command)
             print("conversion completed: " + file + " to pdf...")
 
@@ -208,7 +225,7 @@ def batchPdfConversion(SourceFolder,DestinationFolder):
     #outer
     files = [file for file in os.listdir(DestinationFolder) if (os.path.splitext(file)[1] == ".pdf") ]
 
-    if not files:
+    if files:
         merger = PyPDF2.PdfFileMerger()
 
         for filename in files:
@@ -218,7 +235,7 @@ def batchPdfConversion(SourceFolder,DestinationFolder):
 
         merger.write(os.path.join(DestinationFolder,"notes.pdf"))
     #inner
-    folders = [folder for folder in os.listdir(DestinationFolder) if (os.path.isdir(os.path.join(SourceFolder,folder)) and folder != "assets")]
+    folders = [folder for folder in os.listdir(DestinationFolder) if (os.path.isdir(os.path.join(SourceFolder,folder)) and folder.startswith("__"))]
 
     for folder in folders:
         files = [file for file in os.listdir(os.path.join(DestinationFolder,folder)) if(os.path.splitext(file)[1] == ".pdf")]
@@ -262,17 +279,20 @@ def buildwebsite():
     createHtmlFiles(notes_absolute_path,destination_absolute_path)
 
 
+    print("==========WEBSITE BUILT SUCCESSFULLY============")
+
+
+    # build pdfs
+    batchPdfConversion(os.path.join(os.getcwd()),os.path.join(os.getcwd(),"__assets","print"))
 
     # delete all markdown files
     print("deleting all md files from destination path...")
     deleteMarkdownFromDestination(destination_absolute_path)
 
-    print("==========WEBSITE BUILT SUCCESSFULLY============")
 
 
 
-    # build pdfs
-    batchPdfConversion(os.path.join(os.getcwd(),"source"),os.path.join(os.getcwd(),"assets","print"))
+
 
     # todo 1. integrate pdf,epub,doc,beamer,html, rtf etc. 2. any notes versions
 
