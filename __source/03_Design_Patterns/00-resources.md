@@ -2,7 +2,7 @@
 
 
 
-[TL;DR](./__assets/tl_dr_design_patterns.png/)
+[TL;DR](./assets/tl_dr_design_patterns.png)
 
 
 
