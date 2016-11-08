@@ -1,5 +1,5 @@
-* ####[University admissions](./01_University_Admissions.html)
-* ####[Cjp](./03SCJP.html)
+* ####[Grad admissions](./01_Grad_Admissions.html)
+* ####[Scjp](./03_SCJP.html)
 * ####[Git guide](./04_Git_guide.html)
 * ####[Raspberry pi](./05_Raspberry_Pi.html)
 * ####[Pandoc usage](./06_Pandoc usage.html)
