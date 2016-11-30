@@ -28,6 +28,8 @@
 6. [**Advanced Python for biologists**](http://pythonforbiologists.com/index.php/books/)
 7. [Making games with pygame](https://inventwithpython.com/pygame/chapters/)
 8. [Invent your own games with python](https://inventwithpython.com/chapters/)
+9. [Learn x in Y minutes](https://learnxinyminutes.com/docs/python3/)
+10. [Crash Course](http://nbviewer.jupyter.org/gist/anonymous/5924718)
 
 
 
