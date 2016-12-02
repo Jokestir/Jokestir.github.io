@@ -30,6 +30,8 @@
 8. [Invent your own games with python](https://inventwithpython.com/chapters/)
 9. [Learn x in Y minutes](https://learnxinyminutes.com/docs/python3/)
 10. [Crash Course](http://nbviewer.jupyter.org/gist/anonymous/5924718)
+11. Python 101
+12. Python 201
 
 
 
