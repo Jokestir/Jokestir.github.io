@@ -16,3 +16,4 @@
 ## Specific links
 
 * [Bridge Pattern](http://softwareengineering.stackexchange.com/questions/121326/understanding-the-bridge-design-pattern)
+* [Bridge search](http://softwareengineering.stackexchange.com/search?q=bridge+pattern)
