@@ -20,6 +20,7 @@
 ### Written Tutorials
 
 1. [StartAndroid](http://startandroid.ru/ru/uroki/vse-uroki-spiskom)
+2. [Labs](https://github.com/ErikHellman/advanced-android-course)
 
 
 
