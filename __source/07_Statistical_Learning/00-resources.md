@@ -7,27 +7,22 @@
 
 
 * Udacity Machine Learning and Data Analytics Nanodegree
-
 * Udemy Python for Data Science and Machine Learning Bootcamp
-
-
-
 * Andrew NGs ML class
-
 * Yasir Abu Mustafa caltech (available on youtube)
-
 * Hugo Larochelle's neural Net lectures
+* [Fast Course](http://course.fast.ai/)
+
 
 ## Books
-
-
 
 * Data Smart: Using Data Science to Transform Information into Insight
 
   (Layman non technical intro)
 
-
 * Data Science from Scratch: First Principles with Python
+
+
   (Pragmatic with python)
 
 * Data Mining: Practical Machine Learning Tools and Techniques
@@ -41,15 +36,10 @@
 
 * Machine Learning: A Probabilistic Perspective (Theory)
 
-  ​
-
 * Machine Learning Mastery Super Bundle (Super pragmatic, start with this)
 
 
-
 ## Ask Help
-
-
 
 *  **Reddit** 
 
@@ -57,15 +47,11 @@
 
   Example: Explain SVM eli5
 
-  ​
-
 * Stack exchange (Cross Validated) 
 
 * Ask for datasets on /r/datasets or google for them
 
 ## Platform
-
-
 
 * Weka
 * Tensor Flow
@@ -73,13 +59,9 @@
 
 ## Practice Problems
 
-
-
 * [Kaggle](www.kaggle.com)
 * [KDD Cup](http://www.kdd.org/kdd-cup)
 
 ## Read
-
-
 
 * [Naive Bayes Classifier]()
