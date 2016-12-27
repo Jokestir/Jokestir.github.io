@@ -22,6 +22,8 @@
 
 * Data Science from Scratch: First Principles with Python
 
+* [Stats overview](http://www.athenasc.com/probbook.html)
+
 
   (Pragmatic with python)
 
