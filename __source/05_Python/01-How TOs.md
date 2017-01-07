@@ -1,6 +1,6 @@
-Q.  Python File I/O  permissions ? 
+Q :  Python File I/O  permissions ? 
 
-A. 
+A :
 
 | Mode |               What it does               |
 | :--: | :--------------------------------------: |
