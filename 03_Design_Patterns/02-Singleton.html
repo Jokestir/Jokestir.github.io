@@ -104,13 +104,13 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 <h2 id="tester-class-code">4. Tester Class Code</h2>
 <div class="sourceCode"><pre class="sourceCode java"><code class="sourceCode java"><span class="kw">public</span> <span class="kw">class</span> SingletonTest{
         
-        <span class="kw">public</span> <span class="dt">static</span> <span class="dt">void</span> <span class="fu">main</span>(<span class="bu">String</span>[] args){
+        <span class="kw">public</span> <span class="dt">static</span> <span class="dt">void</span> <span class="fu">main</span>(String[] args){
 
                 Earth e1 = Earth.<span class="fu">getInstance</span>();
 
         Earth e2 = Earth.<span class="fu">getInstance</span>();
 
-        <span class="bu">System</span>.<span class="fu">out</span>.<span class="fu">println</span>(e1==e2);
+        System.<span class="fu">out</span>.<span class="fu">println</span>(e1==e2);
         <span class="co">//Above statement should always return true for singleton.</span>
         }
 }</code></pre></div>

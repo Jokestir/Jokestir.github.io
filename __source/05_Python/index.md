@@ -1,2 +1,3 @@
+* ####[ variables](./02- Variables.html)
 * ####[Resources](./00-resources.html)
-* ####[ variables](./01- Variables.html)
+* ####[How tos](./01-How TOs.html)

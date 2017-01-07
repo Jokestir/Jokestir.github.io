@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <title></title>
+  <style type="text/css">code{white-space: pre;}</style>
+  <link rel="stylesheet" href="../assets/benjamin.css">
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<ol start="17" type="A">
+<li><p>Python File I/O permissions ?</p></li>
+<li></li>
+</ol>
+<table style="width:64%;">
+<colgroup>
+<col style="width: 6%" />
+<col style="width: 56%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: center;">Mode</th>
+<th style="text-align: center;">What it does</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">r</td>
+<td style="text-align: center;">Opens a file for reading only. The file pointer is placed at the beginning of the file. This is the default mode.</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">rb</td>
+<td style="text-align: center;">Opens a file for reading only in binary format. The file pointer is placed at the beginning of the file. This is the default mode.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">r+</td>
+<td style="text-align: center;">Opens a file for both reading and writing. The file pointer placed at the beginning of the file.</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">rb+</td>
+<td style="text-align: center;">Opens a file for both reading and writing in binary format. The file pointer placed at the beginning of the file.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">w</td>
+<td style="text-align: center;">Opens a file for writing only. Overwrites the file if the file exists. If the file does not exist, creates a new file for writing.</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">wb</td>
+<td style="text-align: center;">Opens a file for writing only in binary format. Overwrites the file if the file exists. If the file does not exist, creates a new file for writing.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">w+</td>
+<td style="text-align: center;">Opens a file for both writing and reading. Overwrites the existing file if the file exists. If the file does not exist, creates a new file forreading and writing.</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">wb+</td>
+<td style="text-align: center;">Opens a file for both writing and reading in binary format. Overwrites the existing file if the file exists. If the file does not exist, creates a new file for reading and writing.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">a</td>
+<td style="text-align: center;">Opens a file for appending. The file pointer is at the end of the file if the file exists. That is, the file is in the append mode. If the file does not exist, it creates a new file for writing.</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">ab</td>
+<td style="text-align: center;">Opens a file for appending in binary format. The file pointer is at the end of the file if the file exists. That is, the file is in the append mode. If the file does not exist, it creates a new file for writing.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">a+</td>
+<td style="text-align: center;">Opens a file for both appending and reading. The file pointer is at the end of the file if the file exists. The file opens in the append mode. If the file does not exist, it creates a new file for reading and writing.</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">ab+</td>
+<td style="text-align: center;">Opens a file for both appending and reading in binary format. The file pointer is at the end of the file if the file exists. The file opens in the append mode. If the file does not exist, it creates a new file for reading and writing.</td>
+</tr>
+</tbody>
+</table>
+</body>
+</html>
