@@ -1,12 +1,17 @@
 # Resources
 
+
+
+## Practice
+
+* http://www.practice.geeksforgeeks.org/
+
 ## Coaching
 
 
 
 * Uttara
 
-  ​
 
 
 ## __Books__
@@ -32,8 +37,6 @@
 * [Big O Notation Video](https://www.youtube.com/watch?list=PLGLfVvz_LVvReUrWr94U-ZMgjYTQ538nT&v=V6mKVRU1evU)
 
 ## HELP
-
-
 
 * Ask Reddit
 * Stack overflow
