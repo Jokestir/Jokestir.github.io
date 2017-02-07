@@ -20,7 +20,7 @@
 
 * The Algorithm Design Manual, 2nd Edition,Steven Skiena
 * [Algorithms](http://algs4.cs.princeton.edu/home/), by Robert Sedgewick and Kevin Wayne
-* Grokking Algorithms 
+* Grokking Algorithms
 * [Open Book - start here](http://opendatastructures.org/)
 
 
@@ -55,10 +55,11 @@
 
   ​
 
-## Company Interviews
+## Company Interview Questions
 
 * [Leetcode official](https://leetcode.com/problemset/algorithms/)
 * [Leetcode all questions](https://github.com/kamyu104/LeetCode)
+* [Lintcode](http://www.lintcode.com/en/problem/#)
 * [CareerCup](https://www.careercup.com/page)
 * [GeeksForGeeks Company tags](http://www.practice.geeksforgeeks.org/tags.php) (Moonfrog, swiggy, coupondunia, amazon.oracle etc.)
 
