@@ -43,7 +43,6 @@
 ## Written Courses
 
 
-
 * [Java Revisited](http://javarevisited.blogspot.in/)
 
 * [Infrequently answered questions](http://norvig.com/java-iaq.html)
