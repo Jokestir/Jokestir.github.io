@@ -58,19 +58,20 @@ def create_txt_index_html():
 
     # misc folder
 
-    f = open(os.path.join(notes_folder,files_list[-1],'index.html'),'w+')
-
-    new_html_string = '<!DOCTYPE html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes"><title>Notes</title><style type="text/css">code{white-space: pre;}</style></head><body><ul>'
     misc_name = files_list[-1]
+
+    to_be_written = '<!DOCTYPE html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes"><title>Notes</title><style type="text/css">code{white-space: pre;}</style></head><body><ul>'
 
     files_list = os.listdir(os.path.join(notes_folder,misc_name))
 
     # magic sauce...
-    for file in files_list:
-            new_html_string = html_string + '<li><h3>'  + '<a href="' + './' + notes_folder + '/' + file + '">' + sanitizeFoldername(file) + '</a></h3></li>'
+    for files in files_list:
+        to_be_written = to_be_written + '<li><h3>'  + '<a href="' + './' + notes_folder + '/' + files + '">' + sanitizeFoldername(files) + '</a></h3></li>'
 
-    new_html_string = html_string + "</ul></body></html>"
-    f.write(new_html_string)
+    to_be_written = to_be_written + "</ul></body></html>"
+    print(to_be_written)
+    f = open(os.path.join(notes_folder,misc_name,'index.html'),'w+')
+    f.write(to_be_written)
     f.close()
 
 def remove_readonly(func, path, excinfo):
