@@ -64,9 +64,11 @@ def create_txt_index_html():
 
     files_list = os.listdir(os.path.join(notes_folder,misc_name))
 
+    del files_list[-1]
+
     # magic sauce...
     for files in files_list:
-        to_be_written = to_be_written + '<li><h3>'  + '<a href="' + './' + notes_folder + '/' + files + '">' + sanitizeFoldername(files) + '</a></h3></li>'
+        to_be_written = to_be_written + '<li><h3>'  + '<a href="' + './' + files + '">' + sanitizeFoldername(files) + '</a></h3></li>'
 
     to_be_written = to_be_written + "</ul></body></html>"
     print(to_be_written)
