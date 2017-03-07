@@ -48,7 +48,7 @@ def create_txt_index_html():
 
     # magic sauce...
     for file in files_list:
-        html_string = html_string + '<li><h3 id="' + sanitizeFoldername(file) + '"'  + '<a href="' + './' + notes_folder + '/' + file + '">' + sanitizeFoldername(file) + '</a></h3></li>'
+        html_string = html_string + '<li><h3>'  + '<a href="' + './' + notes_folder + '/' + file + '">' + sanitizeFoldername(file) + '</a></h3></li>'
 
     html_string = html_string + "</ul></body></html>"
 
