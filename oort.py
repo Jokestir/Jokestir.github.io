@@ -48,13 +48,28 @@ def create_txt_index_html():
 
     # magic sauce...
     for file in files_list:
-        html_string = html_string + '<li><h3>'  + '<a href="' + './' + notes_folder + '/' + file + '">' + sanitizeFoldername(file) + '</a></h3></li>'
+            html_string = html_string + '<li><h3>'  + '<a href="' + './' + notes_folder + '/' + file + '">' + sanitizeFoldername(file) + '</a></h3></li>'
 
     html_string = html_string + "</ul></body></html>"
 
     f = open('index.html','w+')
     f.write(html_string)
+    f.close()
 
+    # misc folder
+
+    f = open(os.path.join(notes_folder,files_list[-1],'index.html'),'w+')
+
+    new_html_string = '<!DOCTYPE html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes"><title>Notes</title><style type="text/css">code{white-space: pre;}</style></head><body><ul>'
+    files_list = os.listdir(os.path.join(notes_folder,files_list[-1]))
+
+    # magic sauce...
+    for file in files_list:
+            new_html_string = html_string + '<li><h3>'  + '<a href="' + './' + notes_folder + '/' + file + '">' + sanitizeFoldername(file) + '</a></h3></li>'
+
+    new_html_string = html_string + "</ul></body></html>"
+    f.write(new_html_string)
+    f.close()
 
 def remove_readonly(func, path, excinfo):
     os.chmod(path, stat.S_IWRITE)
