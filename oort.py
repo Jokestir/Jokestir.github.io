@@ -21,7 +21,7 @@ script_path = os.getcwd()
 
 # md files path
 
-notes_folder = '__source'
+notes_folder = 'source'
 
 # destination path
 
