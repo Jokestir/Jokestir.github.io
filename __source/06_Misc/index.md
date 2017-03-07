@@ -1,8 +1,0 @@
-* ####[Grad admissions](./01_Grad_Admissions.html)
-* ####[Scjp](./03_SCJP.html)
-* ####[Git guide](./04_Git_guide.html)
-* ####[Raspberry pi](./05_Raspberry_Pi.html)
-* ####[Pandoc usage](./06_Pandoc usage.html)
-* ####[Sql](./07_SQL.html)
-* ####[Sublime text shortcuts](./08.Sublime_Text_Shortcuts.html)
-* ####[Gre](./09_GRE.html)

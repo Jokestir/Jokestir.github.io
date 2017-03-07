@@ -1,0 +1,119 @@
+                                                            ===================
+                                                                PYTHON NOTES
+                                                            ===================
+
+
+
+
+[0] Resources
+==========================================
+
+
+
+[0.1] Coaching
+--------------------
+
++ Devu
+
+
+[0.2] Books
+---------------------
+
+1.  http://www.geeksforgeeks.org/python/
+
+2.  Python 101
+
+3.  Python 201
+
+4.  Python for biologists                   http://pythonforbiologists.com/index.php/books/
+
+5.  Advanced Python for biologists          http://pythonforbiologists.com/index.php/books/
+
+6.  Python for Java Developers              http://python4java.necaiseweb.org/Main/TableOfContents
+
+7.  Python for busy Java developer          https://antrix.net/static/pages/python-for-java/online/
+
+8.  Automate the boring stuff with python   https://automatetheboringstuff.com/
+
+9.  Programming Arcade Games with Python    http://www.balloonbuilding.com/
+
+10. Making games with pygame                https://inventwithpython.com/pygame/chapters/
+
+11. Invent your own games with python       https://inventwithpython.com/chapters/
+
+12. Learn x in Y minutes                    https://learnxinyminutes.com/docs/python3/
+
+13. Crash Course                            http://nbviewer.jupyter.org/gist/anonymous/5924718
+
+
+
+
+[0.3] Video Courses
+------------------------------
+
+1. Udacity
+
+2. Complete Python Bootcamp                 https://www.udemy.com/complete-python-bootcamp/learn/v4/overview
+
+3. Treehouse
+
+4. ArcadeGamesPython
+
+5. Automate The Boring Stuff
+
+
+
+[0.4] Misc reads
+---------------------------------
+
+1. Switching from Java to Python            https://dzone.com/articles/switching-java-python-first
+
+   ​
+[0.5] Interview
+------------------------------------
+
+1. Awesome Interview                       https://github.com/MaximAbramchuck/awesome-interview-questions#python
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[25] How tos
+==========================================
+
+
+Q :  Python File I/O  permissions ?
+
+A :
+
+| Mode |               What it does               |
+| :--: | :--------------------------------------: |
+|  r   | Opens a file for reading only. The file pointer is placed at the beginning of the file. This is the default mode. |
+|  rb  | Opens a file for reading only in binary format. The file pointer is placed at the beginning of the file. This is the default mode. |
+|  r+  | Opens a file for both reading and writing. The file pointer placed at the beginning of the file. |
+| rb+  | Opens a file for both reading and writing in binary format. The file pointer placed at the beginning of the file. |
+|  w   | Opens a file for writing only. Overwrites the file if the file exists. If the file does not exist, creates a new file for writing. |
+|  wb  | Opens a file for writing only in binary format. Overwrites the file if the file exists. If the file does not exist, creates a new file for writing. |
+|  w+  | Opens a file for both writing and reading. Overwrites the existing file if the file exists. If the file does not exist, creates a new file forreading and writing. |
+| wb+  | Opens a file for both writing and reading in binary format. Overwrites the existing file if the file exists. If the file does not exist, creates a new file for reading and writing. |
+|  a   | Opens a file for appending. The file pointer is at the end of the file if the file exists. That is, the file is in the append mode. If the file does not exist, it creates a new file for writing. |
+|  ab  | Opens a file for appending in binary format. The file pointer is at the end of the file if the file exists. That is, the file is in the append mode. If the file does not exist, it creates a new file for writing. |
+|  a+  | Opens a file for both appending and reading. The file pointer is at the end of the file if the file exists. The file opens in the append mode. If the file does not exist, it creates a new file for reading and writing. |
+| ab+  | Opens a file for both appending and reading in binary format. The file pointer is at the end of the file if the file exists. The file opens in the append mode. If the file does not exist, it creates a new file for reading and writing. |

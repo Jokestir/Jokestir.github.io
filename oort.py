@@ -13,7 +13,7 @@ from distutils import dir_util
 ## GLOBAL VARIABLES
 
 # add 'pdf2txt','webpage2txt',
-possible_args = ['buildwebsite','slideshow']
+possible_args = ['buildwebsite','slideshow','txtnotes']
 
 
 # searches for source files in the present working directory
@@ -41,6 +41,20 @@ folder_list = []
 
 
 ## ALL FUNCTIONS
+
+def create_txt_index_html():
+    html_string = '<!DOCTYPE html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes"><title>Notes</title><style type="text/css">code{white-space: pre;}</style></head><body><ul>'
+    files_list = os.listdir(notes_absolute_path)
+
+    # magic sauce...
+    for file in files_list:
+        html_string = html_string + '<li><h3 id="' + sanitizeFoldername(file) + '"'  + '<a href="' + './' + notes_folder + '/' + file + '">' + sanitizeFoldername(file) + '</a></h3></li>'
+
+    html_string = html_string + "</ul></body></html>"
+
+    f = open('index.html','w+')
+    f.write(html_string)
+
 
 def remove_readonly(func, path, excinfo):
     os.chmod(path, stat.S_IWRITE)
@@ -325,6 +339,10 @@ if __name__ == "__main__":
     elif arg == "slideshow":
         print("preparing beamer slideshow...")
         batchBeamerConversion(os.getcwd(),os.path.join(os.getcwd(),"beamer_output"))
+
+    elif arg == "txtnotes":
+        print("txtnotes...")
+        create_txt_index_html()
 
     else:
         print("\n Wrong argument entered." + arg + " .Enter one of the following arguments:")

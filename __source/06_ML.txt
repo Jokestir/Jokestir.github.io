@@ -1,0 +1,41 @@
+                                                ==========================
+                                                    MACHINE LEARNING
+                                                ==========================
+
+
+[0] Resources
+====================================
+
+
+[0.1] Video Courses
+---------------------
+
++ Udacity Machine Learning and Data Analytics Nanodegree
+
++ Udemy Python for Data Science and Machine Learning Bootcamp
+
++ Andrew NGs ML class
+
++ Yasir Abu Mustafa caltech (available on youtube)
+
++ Hugo Larochelle's neural Net lectures
+
++ Fast Course : http://course.fast.ai/
+
+
+
+[0.2] Books
+-------------
+
++ Data Smart: Using Data Science to Transform Information into Insight
+
+  (Layman non technical intro)
+
++ Data Science from Scratch: First Principles with Python
+
++ [Stats overview](http://www.athenasc.com/probbook.html)
+
+  (Pragmatic with python)
+
++ Data Mining: Practical Machine Learning Tools and Techniques
+  (Pragmatic with Weka)

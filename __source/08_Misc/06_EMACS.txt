@@ -1,0 +1,68 @@
+EMACS
+=====
+
+
+1.1 Keyboard Shortcuts
+_____________________________________________________________
+
+
++ C-x C-f      : Open or create a file
+
++ C-x C-g      : Abort command
+
++ C-x C-c      : Quit emacs
+
++ C-x k        : Kill current window editing the file
+
++ M-f          : Move forward one word
+
++ M-b          : Move back one word
+
++ C _          : undo
+
++ C a          : beginning of line
+
++ C e          : end of line
+
++ M <          : beginning of the buffer
+
++ M >          : end of buffer
+
++ C x 2        : split top down
+
++ C x 3        : split left right
+
++ C x 1        : close all windows. simplify life.
+
++ C x o        : other window
+
++ C x C s      : save file
+
++ C s          : search
+
++ C space      : mark / select
+
++ M w          : copy
+
++ C-y          : paste
+
++ C-l          : middle
+
++ M-%          : query and replace
+
+
+
+1.2 Advanced EMACS
+_______________________________________________________
+
+
++ C-x C-f      : Directory edit mode
+
++ d            : Mark for deletion
+
++ x            : execute
+
++ +            : create a directory
+
++ C-x b        : switch to other buffer / file
+

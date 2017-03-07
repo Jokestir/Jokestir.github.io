@@ -1,0 +1,53 @@
+Git guide
+===========================================================================
+
+
+1. upload the changes
+--------------------------
+
+
+$ git push origin master         # git push origin <branch-name>
+
+
+
+
+2. link the remote branch
+--------------------------
+
+
+$ git remote add origin https://github.com/username/myproject.git
+
+
+
+
+3. Commit and add
+--------------------------
+
+$ git add <file-name> && git commit -m '<comment>'
+
+
+
+
+4. Create a branch
+--------------------------
+
+$ git branch -b my_branch
+
+
+
+
+5. switch branch
+--------------------------
+
+$ git checkout my_branch
+
+
+
+6. Clone
+--------------------------
+
+$ git clone https://github.com/username/myproject.git
+
+
+
+

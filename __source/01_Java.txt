@@ -1,0 +1,229 @@
+                                                            ===================
+                                                                JAVA NOTES
+                                                            ===================
+
+
+[0] Resources
+====================
+
+
+
+[0.1] Official documentation
+-----------------------------------------------------------------------------------------------
+
+
++ JLS8 (http://docs.oracle.com/javase/specs/jls/se8/html/index.html)
+
+
+
+[0.2] Books
+-----------------------------------------------------------------------------------------------
+
+
++ Effective Java
+
++ Java Concurrency in Practice
+
++ OCA/P 7
+
++ OCA 8, OCP 8
+
+  ​
+[0.3] Video Courses
+-----------------------------------------------------------------------------------------------
+
++ Uttara App
+
++ Udacity
+
++ Treehouse
+
++ OCA Pearson Value Course
+  ​
+
+[0.4] Interviews
+-----------------------------------------------------------------------------------------------
+
+
++ 133 interview questions (http://javarevisited.blogspot.in/2015/10/133-java-interview-questions-answers-from-last-5-years.html)
+
++ Awesome Interview questions (https://github.com/MaximAbramchuck/awesome-interview-questions#java)
+
++ Interview Bit (https://www.interviewbit.com/)
+
+
+[0.5] Misc
+-----------------------------------------------------------------------------------------------
+
+
++ SCJP mock exams : http://enthuware.com/
+
++ Lab             : Vikram Shastry emails (Dropbox > Labs)
+
++ Notes           : Vikram Shastry emails (Dropbox > Notes)
+
++ SCJP Exam FAQs  : https://coderanch.com/wiki/659883/Ocjp-Faq
+
++ Overriding rules: http://www.codejava.net/java-core/the-java-language/12-rules-of-overriding-in-java-you-should-know
+
++ JavaRanch       : https://coderanch.com/forums/recentTopics/list
+
+
+[0.6] SCJP
+----------------------------------------------------------------------------------------------------
+
+
+[0.6.1] Ask someone
+-----------
+
+
++  Javaranch  https://coderanch.com/forums/recentTopics/list
+
++  Reddit     https://www.reddit.com/r/learnjava/
+
+  ​
+[0.6.2] Books
+------
+
++ OCA/P 7
+
++ OCA 8, OCP 8
+
+
+[0.6.3] Mock exams
+-----------
+
++ Enthuware  http://enthuware.com/
+
+
+[0.6.4] Videos
+-------
+
++ Uttara Video App
+
++ OCA Pearson Value Course
+
+
+[0.6.5] Lab
+-----
+
++ Vikram Shastry emails    https://www.dropbox.com/home/Java/SharedByVikramShastry/Labs
+
+
+[0.6.6] Notes
+--------
+
++ Class notes             https://www.dropbox.com/home/Java/SharedByVikramShastry/ClassNotes
+
+
+[0.6.7] Misc
+--------
+
++ Exam Faqs               https://coderanch.com/wiki/659883/Ocjp-Faq
+
++ 12 rules of overriding  http://www.codejava.net/java-core/the-java-language/12-rules-of-overriding-in-java-you-should-know
+
+  ​
+
+[4] Variables
+====================
+
+Variables are placeholders in memory.
+
+
+
+
+[11] Exceptions
+====================
+
+
+Exceptions are abnormal conditions at runtime.
+
+
+
+[11.1] Why do exceptions occur?
+-----------------------------------------------------------------------------------------------
+
+
+
+1. Bad code
+2. Error due to environment
+3. JVM error
+
+
+[11.2] Types of Exceptions
+-----------------------------------------------------------------------------------------------
+
+
+There are two types of exceptions
+
+1. Runtime exceptions
+2. Checked exceptions
+
+
+
+[20] Compilation failures
+==============================
+
+
+This page lists out all the possible compilation failures that can occur in a Java program.
+
+
+
+  1. When a local variable is not initialized before it is used.
+
+  2. final and volatile both used for a variable.
+
+
+
+[21] FAQs
+==============================
+
+
+ 1. How to debug Class Cast exception?
+
+
+
+
+[22] Generic Programming problems
+======================================
+
+These are some of the basic langauge independent problems.
+
+These should be tried for every programming language learnt.
+
+
+    1.  Write hello world.
+
+
+    2.  Reverse a string with and without using any library functions
+
+
+    3.  Find out sum of all elements of an array
+
+
+    4.  Guess the number game
+
+
+    5.  Generate fibonacci series upto N
+
+
+    6.  Return Nth fibonacci number.
+
+
+    7.  Find out `max` and `min` of an Array
+
+
+
+[23] CS fundamentals
+======================================
+
+
+    1. What is the difference between intrepreter and compiler?
+
+    2.  What is query string?
+
+    3. What is a webserver?
+
+
+

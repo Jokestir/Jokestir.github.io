@@ -1,0 +1,37 @@
+                                                        ======================
+                                                                SQL
+                                                        ======================
+
+
+[0] Resources
+===================================================
+
+
+[0.1] Video Courses
+-------------------------
+
+
++ Complete SQL Boot camp series udemy
+
++ SQL for Newbs Masterclass: Beginner Data Analysis udemy
+
+
+[0.2] Books
+--------------------------
+
++ Head First SQL
+
++ Manga Series
+
+
+[0.3] Help
+---------------------------
+
++ Ask Reddit
+
++ Stack overflow
+
++ Google (something like eli5)
+
++ YouTube
+

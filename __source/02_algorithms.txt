@@ -1,0 +1,107 @@
+                                                            ===================
+                                                              Algorithm NOTES
+                                                            ===================
+
+
+[0] Resources
+==================================================
+
+
+[0.1] Practise
+--------------------------------------------
+
++ Geeksforgeeks
+
+                - http://www.practice.geeksforgeeks.org/
+
+                - http://www.practice.geeksforgeeks.org/tags.php
+
+                  Compnay tags: Moonfrog, swiggy, coupondunia,amazon,oracle
+
++ Leetcode
+
+                 - https://leetcode.com/problemset/algorithms/
+
+                 - All qs : https://github.com/kamyu104/LeetCode
+
+                 - Company : https://github.com/Jokestir/codePractise/tree/master/algorithms
+
+
++ Company wise
+
+                  - https://www.careercup.com/page
+
+                  - http://www.lintcode.com/en/problem/#
+
+
+
+
+[0.2] Coaching
+--------------------------------------------
+
++ Uttara
+
++ Learnbay
+
+
+[0.3] Books
+--------------------------------------------
+
++ The Algorithm Design Manual, 2nd Edition,Steven Skiena
+
++ Algorithms(http://algs4.cs.princeton.edu/home/), by Robert Sedgewick      Kevin Wayne
+
++ Grokking Algorithms
+
++ Open Book - start here (http://opendatastructures.org/)
+
+
+[0.4] Videos
+--------------------------------------------
+
++ Udacity - Intro to algorithms (Python)
+
++ Princeton - Algorithms (Java,2 parts)
+
++ Skiena (Video, slides and assignments)
+
++ Python for Data Structures and Algorithms (udemy)
+
++ Big O Notation Video (https://goo.gl/vTXkUG)
+
+
+
+[0.5] Help
+--------------------------------------------
+
++ Ask Reddit
+
++ Stack overflow
+
++ YouTube
+
++ Google "algorithm visualizations" or "data structure visualization"
+
+
+
+
+[0.5] Other courses
+--------------------------------------------
+
+
++ Interviewbit : https://www.interviewbit.com/
+
++ MIT course   : https://courses.csail.mit.edu/iap/interview/materials.php
+
++ http://javarevisited.blogspot.in/2013/03/top-15-data-structures-algorithm-interview-questions-answers-java-programming.html
+
+
+
+
+
+[1] Linked Lists
+=================================================================================================================================
+
+
+
+  Linked lists are position backed data structure.
