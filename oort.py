@@ -61,7 +61,9 @@ def create_txt_index_html():
     f = open(os.path.join(notes_folder,files_list[-1],'index.html'),'w+')
 
     new_html_string = '<!DOCTYPE html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes"><title>Notes</title><style type="text/css">code{white-space: pre;}</style></head><body><ul>'
-    files_list = os.listdir(os.path.join(notes_folder,files_list[-1]))
+    misc_name = files_list[-1]
+
+    files_list = os.listdir(os.path.join(notes_folder,misc_name))
 
     # magic sauce...
     for file in files_list:
