@@ -6,13 +6,13 @@ Most Important
 ------------------
 
 
-Shift + F11   :  Go to distraction free mode
+Ctrl + D   :  Go to distraction free mode
 
 
 Slide in or out sidebar
 -------------------------
 
-Ctrl + K + B
+Alt + 1
 
 
 GOTO shortcuts
@@ -21,32 +21,24 @@ GOTO shortcuts
 +  Goto file
 ---------------------------
 
-    Ctrl + P
+    Ctrl + Shift + F
 
 
 +  Goto Definition
 ---------------------------
 
-     Ctrl + Shift + R
-
+     Ctrl + M
 
 +   Goto Symbol
 ---------------------------
 
     Ctrl + P. Then press #
 
-
-+ Goto brace
----------------------------
-
-  Ctrl + M
-
-
   ​
 + Create a Pane
 ---------------------------
 
-   Alt + Shift + 1
+   Ctrl + Shift + V
 
 
 + Shift to 2nd pane
@@ -57,7 +49,8 @@ GOTO shortcuts
 
 + Search within Project
 ---------------------------
-  Ctrl + Shift + F
+
+  Ctrl + Q
 
 
 + Search and replace
@@ -65,11 +58,6 @@ GOTO shortcuts
 
   Ctrl + H
 
-
-+ Create 1, 2 ,3 or 4 panes
----------------------------
-
-  Alt + Shift + 1, Alt + Shift + 2 ...
 
 
   ​
@@ -81,7 +69,7 @@ Compilation
 Compile default
 ---------------------------
 
-  Ctrl + B
+  Ctrl + R
 
 
 Open terminal at current path
@@ -108,12 +96,6 @@ Multi Cursors
   Ctrl + Click at multiple places
 
 
-Select multiple words
--------------------------------------
-
-  Ctrl + D
-
-
 Select Line
 ---------------------------------------
 
@@ -129,13 +111,13 @@ Bookmarks
 Toggle Bookmark
 --------------------------------------------
 
-  Ctrl + F2
+  Ctrl + B
 
 
 Go to next bookmark
 ----------------------------------------------
 
-  F2
+  Alt + B
 
 
 
@@ -143,7 +125,7 @@ Go to next bookmark
 Go to previous bookmark
 -----------------------------------------------
 
-  Shift + F2
+  Alt + Shift + F2
 
 
 Clear all bookmarks
