@@ -58,6 +58,9 @@ College Shortlist
 9. Syracruse
 10. Georgia Tech
 11. Colorado Boulder
+12. Stony Brook
+13. CMU
+14. Berkley
 
 --
 + University of waterloo (Mmsc, masc not mmath)
