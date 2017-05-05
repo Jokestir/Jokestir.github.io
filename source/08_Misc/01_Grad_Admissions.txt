@@ -47,25 +47,42 @@ College Shortlist
 ----------------------------------------------
 
 
-1. San Jose State Uni (Software Engineering)
-2. ASU
-3. UFL
-4. University of California, Riverside or Santa Cruz.
-5. Sunny, Buffalo
-6. Texas, Arlington
-7. MSU
-8. Texas, Dallas
-9. Syracruse
-10. Georgia Tech
-11. Colorado Boulder
-12. Stony Brook
-13. CMU
-14. Berkley
+Upar:
 
---
-+ University of waterloo (Mmsc, masc not mmath)
-+ Simon Fraser university (Big data)
-+ University of Alberta
+CMU (SE)
+UPenn(MCIT)
+
+
+Mid:
+
+ASU (SE)
+SJSU (SE)
+California Irvine (SE)
+University of Southern California (SE)
+Minnestosta twin cities (SE)
+Colrado (SE)
+
+Safe:
+
+UTD (SE)
+UTA (SE)
+
+----------------
+Pipeline:
+
+Univ of Houston gives scholarship
+Ottawa (SE)
+Calgary (CPSC with SENG)
+Rutgers (SE)
+Utah (MSD)
+Syracruse (only CS available)
+UFL (only CS available)
+Suny Buffalo (only CS available)
+California riverside (CS only)
+Stony Brooke (CS only)
+
+California Fullerton (SE)
+CSU northridhge (SE)
 
 
 College data
