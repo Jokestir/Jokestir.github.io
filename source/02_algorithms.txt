@@ -55,6 +55,8 @@
 
 + Open Book - start here (http://opendatastructures.org/)
 
++ Leetcode competition book
+
 
 [0.4] Videos
 --------------------------------------------
