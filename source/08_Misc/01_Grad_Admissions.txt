@@ -49,38 +49,27 @@ College Shortlist
 
 Upar:
 
-CMU (SE)
-UPenn(MCIT)
+Berkley (MIMS)
 
 
 Mid:
 
 ASU (SE)
 SJSU (SE)
-California Irvine (SE)
-University of Southern California (SE)
-Minnestosta twin cities (SE)
-Colrado (SE)
+California Irvine (Networked Systems or SE)
+UFL (CS)
 
 Safe:
 
 UTD (SE)
-UTA (SE)
 
 ----------------
 Pipeline:
 
-Univ of Houston gives scholarship
+
 Ottawa (SE)
 Calgary (CPSC with SENG)
-Rutgers (SE)
-Utah (MSD)
-Syracruse (only CS available)
 UFL (only CS available)
-Suny Buffalo (only CS available)
-California riverside (CS only)
-Stony Brooke (CS only)
-
 California Fullerton (SE)
 CSU northridhge (SE)
 
