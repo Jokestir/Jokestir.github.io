@@ -27,7 +27,13 @@
 
 + Use safaribooksonline for studies
 
++ Use interviewcake
+
 + Solve leetcode 50 questions and search reddit for discussions
+
++ make notes for all problems
+
++ Use comprehension skills
 
 
 
