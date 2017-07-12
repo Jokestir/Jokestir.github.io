@@ -11,28 +11,27 @@
 --------------------------------------------
 
 
-(Search solutions on reddit daily programmer)
-
-
-
 + Interviewcake (do this)
+
++ Leetcode  (50 problem book)
 
 + https://www.careercup.com/page  (companywise)
 
 + http://www.lintcode.com/en/problem/#
 
-
-+ Leetcode  (50 problem book)
-
-                 - All qs : https://github.com/kamyu104/LeetCode
-
-                 - Company : https://github.com/Jokestir/codePractise/tree/master/algorithms
-
 + Interviewbit
 
 
+[0.2] Tips
+--------------------------------------------
 
-[0.2] Books
++ Use safaribooksonline for studies
+
++ Solve leetcode 50 questions and search reddit for discussions
+
+
+
+[0.3] Books
 --------------------------------------------
 
 + Open Book - start here (http://opendatastructures.org/)
