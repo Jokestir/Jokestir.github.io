@@ -29,7 +29,7 @@
 
 + Use interviewcake
 
-+ Solve leetcode 50 questions and search reddit for discussions
++ Solve leetcode 50 questions (Search /r/dailyprogrammer and /r/leetcode)
 
 + make notes for all problems
 
