@@ -66,3 +66,32 @@ _______________________________________________________
 
 + C-x b        : switch to other buffer / file
 
+
+# Linux requirements
+
+
+## gen
+
+pick a window manager
+
+pick a desktop environment
+
+remove unity bar. install some dock. transparent. top bar should be minimalist and transpatent
+
+just search minimal in unixporn subreddit
+
+
+
+## Shortcuts
+
+super + tab = show all windows
+
+alt + tab = cycle through windows
+
+alt + f4 = close windows
+
+super + arrow key = tile windows next to each other
+
+super + d = show desktop
+
+super = menu to search applications
