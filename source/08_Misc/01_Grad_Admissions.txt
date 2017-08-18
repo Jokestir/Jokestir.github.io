@@ -4,24 +4,12 @@
                                                     =============================
 
 
-
 Factors universities take in consideration
 --------------------------------------------------
 
-
-1. GRE score. Used as a filter
-2. Pointer
-3. SOP
-4. Projects
-5. Profs researc
-
-Factors to shortlist
--------------------------
-
-1. Cost. Only public universities.
-
-2. Location. Preferably California, Texas, NY.
-
+1. GRE and TOEL scores. Used as a negative filter
+2. CGPA
+3. SOP, Projects, Profs research
 
 Consultancy (visa, i20, financial guidance)
 ----------------------------------------------
@@ -34,142 +22,42 @@ Consultancy (visa, i20, financial guidance)
 
 4. Karthik Stanford : http://nlp.stanford.edu/~rkarthik/misc.html
 
-
-Process
-------------------------------------------------
-
-1. Grad Decision             http://graddecision.org/
-
-2. Admission process         http://cs.stanford.edu/~rkarthik/DAGAP.pdf
+5. Pyramid, Dhruv 
 
 
 College Shortlist
 ----------------------------------------------
 
 
-Upar:
+Berkley							(MIMS)
+Georgia Tech 					(Computational Science and Engineering)
 
-Berkley (MIMS)
-
-
-Mid:
-
-ASU (SE)
-SJSU (SE)
-California Irvine (Networked Systems or SE)
-UFL (CS)
-
-Safe:
-
-UTD (SE)
-
-----------------
-Pipeline:
-
-
-Ottawa (SE)
-Calgary (CPSC with SENG)
-UFL (only CS available)
-California Fullerton (SE)
-CSU northridhge (SE)
-
-
-College data
-------------------------------------------------
-
-
-1. Petersons :  https://www.petersons.com/
-
-2. Stupidsid :  http://www.stupidsid.com/
-
-3. Rankings  : http://grad-schools.usnews.rankingsandreviews.com/best-graduate-schools/top-science-schools/computer-systems-rankings
-
-
-
-GRE
-============================
-
-
-Tests
-----------------
-
-
-+ PowerPrep II           https://www.ets.org/gre/revised_general/prepare/powerprep2/
-
-+ Manhattan Tests
-
-+ Crunchprep
-
-
-Practice Books
------------------
-
-
-+ 5 lb. book of problems
-
-+ ETS Verbal Practise
-
-+ ETS Quant Practice
-
-
-Vocab
----------------------------
-
-
-+ Audio folder on HD
-
-+ Image http://imgur.com/a/P3DT2
-
-+ Chatbot https://www.facebook.com/pg/sphinxchatbot/photos/?ref=page_internal
-
-
-Comprehensions
-----------------------------
-
-
-+ Crunchprep       https://crunchprep.com/gre-reading-comprehension-guide
-
-+ GreenLight       https://www.greenlighttestprep.com/module/gre-reading-comprehension/video/1121
-
-+ Manhattan Prep Book
-
-
-
-Essays
----------------------------------------------
-​
-
-+   Practice                http://www.testpreppractice.net/GRE/awa-samples/gre-awa-essay-samples.html
-
-+   Manhattan Prep
-
-+   Video                  https://www.greenlighttestprep.com/module/gre-analytical-writing
-
-+   Hack                   https://www.reddit.com/r/GRE/comments/5292cg/an_interesting_tip_for_the_issue_essay_if_you/
-
-+   Strategy                   https://www.reddit.com/r/GRE/comments/4y6svr/analytical_writing_60_some_tips/
-
-+   Official Practise                  https://docs.google.com/spreadsheets/d/1tlzVidsf3k5C37Asgyqikkj2oKgx1RmIAAUes_5ZawU/edit#gid=0
-
-+   Graded Essays                  https://www.reddit.com/r/GRE/comments/3iamvg/where_can_i_read_essays_which_scored_a_5_or_6/
-
-
-DI
--------------------------------------------------
-
-
-+ Videos                    https://www.greenlighttestprep.com/module/gre-data-interpretation
-
-
-Geometry
--------------------------------------------------
-
-+ Video                     https://www.greenlighttestprep.com/module/gre-geometry
+California Irvine 				(Software Engineering or Networked systems)
+SJSU							(Software Engineering)
+ASU								(Software Engineering)
+UT Dallas						(Software Engineering)
 
   ​
 
 + Loan 				 		http://gyandhan.com, prodigy finance
-
 + Intern					teachforindia
-
 + Scholarship               tata mahindra scholarship,
+
+
+
+Opinions
+-------------------------
+
+* Akshay: Explore MIS roles also
+
+* Grishma
+
+			- Apply for professional courses. Only STEM
+			- Highlight work ex to make up for non computer background. Also college and office projects
+			- REsume : Roles and responsibilities
+			
+
+* Dhrv		
+
+			- CGPA is less. GRE is good. Job is good. Break is not good
+			- CMU : some networking courses. Highlight your job.
