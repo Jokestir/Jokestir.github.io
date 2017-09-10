@@ -1,4 +1,4 @@
-
+﻿
                                                     ============================
                                                         University Admissions
                                                     =============================
@@ -28,18 +28,15 @@ Consultancy (visa, i20, financial guidance)
 College Shortlist
 ----------------------------------------------
 
-
-Berkley							(MIMS)
-Georgia Tech 					(Computational Science and Engineering)
-
-California Irvine 				(Software Engineering or Networked systems)
-SJSU							(Software Engineering)
-ASU								(Software Engineering)
-UT Dallas						(Software Engineering)
-
+UPENN						MSIT
+TAMU 						Computer Engineering
+California Irvine 				Software Engineering
+ASU						Software Engineering
+UT Dallas					Software Engineering
+UNCC						MCIT
   ​
 
-+ Loan 				 		http://gyandhan.com, prodigy finance
-+ Intern					teachforindia
++ Loan 			http://gyandhan.com, prodigy finance
++ Intern			teachforindia
 + Scholarship               tata mahindra scholarship,
 
