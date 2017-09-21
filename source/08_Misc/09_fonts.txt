@@ -1,7 +1,1 @@
-fonts:
-
---> text                : gfs_didot / liberation_serif / menlo / monaco / times_new_roman
-
---> source_code         : liberation_mono / menlo / monaco
-
---> websites            : gfs_didot / roboto_mono / dyslexic etc.
+``demo``
